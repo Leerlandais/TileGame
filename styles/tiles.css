@@ -1,0 +1,98 @@
+body {
+    background-color: #f4d292;
+    font-family: cursive;
+} 
+
+h1 {
+    text-align: center;
+    font-style: italic;
+    text-decoration: underline;
+}
+
+#tileSet {
+    background-color: lightgrey;
+    width: 60vw;
+    height: 40vw;
+    margin: 0 auto;
+    border: 2px solid black;
+    border-radius: 10%;
+}
+
+legend {
+    margin-left: 100px;
+    
+    font-size: 24px;
+    padding: 0 5px;
+}
+
+#tileTable {
+    display: table;
+    width: 14vw;
+    height: 14vw;
+    margin: 18% auto;
+}
+
+.tileRow {
+    display: table-row;
+}
+
+.tile {
+    width: 120px;
+    height: 120px;
+    border: 1px solid wheat;
+}
+
+#tile1_1 {
+    display: table-cell;
+    background: url(../images/me.jpg);
+    background-position: left top;
+}
+
+#tile1_2 {
+    display: table-cell;
+    background: url(../images/me.jpg);
+    background-position: left center,
+}
+
+#tile1_3 {
+    display: table-cell;
+    background: url(../images/me.jpg);
+    background-position: left right;
+}
+
+#tile2_1 {
+    display: table-cell;
+    background: url(../images/me.jpg);
+    background-position: middle left;
+}
+
+#tile2_2 {
+    display: table-cell;
+    background: url(../images/me.jpg);
+    background-position: middle center;
+}
+
+#tile2_3 {
+    display: table-cell;
+    background: url(../images/me.jpg);
+    background-position: middle right;
+}
+
+#tile3_1 {
+    display: table-cell;
+    background: url(../images/me.jpg);
+    background-position: bottom left;
+}
+
+#tile3_2 {
+    display: table-cell;
+    background: url(../images/me.jpg);
+    background-position: bottom center;
+}
+
+#tile3_3 {
+    display: table-cell;
+    background: url(../images/me.jpg);
+    background-position: bottom right;
+}
+
